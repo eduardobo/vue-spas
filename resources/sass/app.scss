@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    .black-font {
+        color: #222222;
+    }
+
+    .gray-dark-font {
+        color: #4a4a4a;
+    }
+
+    .leading-loose-2 {
+        line-height: 40px !important;
+    }
+}
