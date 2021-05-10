@@ -13,15 +13,15 @@
     </head>
     <body>
         <div id="app">
-            <div class="container mx-auto">
-                <header class="py-6 mb-8">
-                    <img src="/images/logo.svg">
-                </header>
+            <header class="py-6 px-8 mb-8" style="background: url('/images/splash.svg') 0 10px no-repeat">
+                <img src="/images/logo.svg">
+            </header>
 
+            <div class="container px-8 mb-10">
                 <main class="flex">
-                    <aside class="w-1/5">
-                        <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-3">The brand</h5>
+                    <aside class="w-64 pt-8">
+                        <section class="mb-10">
+                            <h5 class="uppercase font-bold mb-5 text-base">The brand</h5>
 
                             <ul class="list-unstyled">
                                 <li class="text-sm leading-loose-2"><router-link class="black-font" to="/" exact>Logo</router-link></li>
@@ -31,14 +31,22 @@
                             </ul>
                         </section>
 
-                        <section>
-                            <h5 class="uppercase font-bold mb-3">Doodle</h5>
+                        <section class="mb-10">
+                            <h5 class="uppercase font-bold mb-5 text-base">Doodle</h5>
 
                             <ul class="list-unstyled">
                                 <li class="text-sm leading-loose-2"><router-link class="black-font" to="/mascot">Mascot</router-link></li>
                                 <li class="text-sm leading-loose-2"><router-link class="black-font" :to="{ name:'illustrations' }">Illustrations</router-link></li>
                                 <li class="text-sm leading-loose-2"><router-link class="black-font" :to="{ name:'loaders-and-animations' }">Loaders & Animations</router-link></li>
                                 <li class="text-sm leading-loose-2"><router-link class="black-font" :to="{ name:'wallpapers' }">Wallpapers</router-link></li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h5 class="uppercase font-bold mb-5 text-base">Stats</h5>
+
+                            <ul class="list-unstyled">
+                                <li class="text-sm leading-loose-2"><router-link class="black-font" to="/site-stats ">Site Stats</router-link></li>
                             </ul>
                         </section>
                     </aside>

@@ -23,4 +23,26 @@
     .leading-loose-2 {
         line-height: 40px !important;
     }
+
+    .text-base {
+        font-size: 16px;
+    }
+
+    .bg-blue {
+        background-color: #1747b0;
+    }
+
+    .bg-dark {
+        background-color: #222222;
+    }
+
+    .bg-laravel {
+        background: linear-gradient(90deg, #F44881, #EC454F);
+    }
+}
+
+.container {
+    max-width: 920px;
+    margin-right: 0;
+    margin-left: 0;
 }
