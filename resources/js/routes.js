@@ -1,12 +1,15 @@
-import Logo from './components/Logo'
-import LogoSymbol from './components/LogoSymbol'
-import Colors from './components/Colors'
-import Typography from './components/Typography'
-import Illustrations from './components/Illustrations'
-import Mascot from './components/Mascot'
-import LoadersAndAnimations from './components/LoadersAndAnimations'
-import Wallpapers from './components/LoadersAndAnimations'
-import NotFound from './components/NotFound'
+import Logo from './components/Logo';
+import LogoSymbol from './components/LogoSymbol';
+import Colors from './components/Colors';
+import Typography from './components/Typography';
+import Illustrations from './components/Illustrations';
+import Mascot from './components/Mascot';
+import Wallpapers from './components/Wallpapers';
+import NotFound from './components/NotFound';
+import SiteStats from './components/SiteStats';
+
+let LoadersAndAnimations = () =>
+    import(/* webpackChunkName: "loaders" */ './components/LoadersAndAnimations');
 
 export default {
     mode: 'history',
@@ -64,6 +67,12 @@ export default {
             path: '/wallpapers',
             component: Wallpapers,
             name: 'wallpapers'
+        },
+
+        {
+            path: '/site-stats',
+            component: SiteStats,
+            name: 'site-stats'
         }
     ]
 }

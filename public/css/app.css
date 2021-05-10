@@ -11165,6 +11165,22 @@ video {
   line-height: 40px !important;
 }
 
+.text-base {
+  font-size: 16px;
+}
+
+.bg-blue {
+  background-color: #1747b0;
+}
+
+.bg-dark {
+  background-color: #222222;
+}
+
+.bg-laravel {
+  background: linear-gradient(90deg, #F44881, #EC454F);
+}
+
 .container{
   width: 100%;
 }
@@ -42443,6 +42459,12 @@ video {
 
 .backdrop-sepia{
   --tw-backdrop-sepia: sepia(100%);
+}
+
+.container {
+  max-width: 920px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 @media (min-width: 640px){
