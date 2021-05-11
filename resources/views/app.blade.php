@@ -19,7 +19,7 @@
 
             <div class="container px-8 mb-10">
                 <main class="flex">
-                    <aside class="w-64 pt-8">
+                    <aside class="w-64 pt-8 flex-no-shrink">
                         <section class="mb-10">
                             <h5 class="uppercase font-bold mb-5 text-base">The brand</h5>
 
